@@ -4,9 +4,11 @@ We are always happy to hear your feedback! Submit your feedback in our github is
 Setup
 ---
 To install the necessary dependencies, run:
+
     npm i --save express mongoose visit-counter
   
 Use the visit-counter middleware just like any other middleware in express (also use it before setting up routes):
+
     const express = require('express');
     const app = express();
     const mongoose = require('mongoose');
@@ -27,6 +29,7 @@ Use the visit-counter middleware just like any other middleware in express (also
 Record in Database
 ---
 All requests will be recorded in MongoDB in the following form:
+
     {
       page: "/url/path",
       method: "GET | POST | PUT | DELETE | ETC.",
