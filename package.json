@@ -1,0 +1,19 @@
+{
+  "name": "visit-counter",
+  "version": "1.0.0",
+  "description": "Express middleware to track the number of GET, POST, PUT, etc. requests for each page of your webapp or API. Required: connect to MongoDB with Mongoose.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/briancldo/visit-counter.git"
+  },
+  "author": "Unichative LLC",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/briancldo/visit-counter/issues"
+  },
+  "homepage": "https://github.com/briancldo/visit-counter#readme"
+}
