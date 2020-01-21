@@ -1,5 +1,5 @@
 Visit-counter is an express middleware to track the number of GET, POST, PUT, etc. requests for each page of your webapp or API. Required: connect to MongoDB with Mongoose.
-We are always happy to hear your feedback! Submit your feedback in our github issues page.
+We are always happy to hear your feedback! Submit your feedback in our github <a href="https://github.com/unichative/visit-counter/issues">issues</a> page.
 
 Setup
 ---
